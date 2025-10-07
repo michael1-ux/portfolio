@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.homepage{
+    background: #111827;
+    width: 100%;
+
+}
+.home{
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    gap: 80px;
+}
+.hometext{
+margin-top: 6rem;
+}
+.hometext > h4{
+    color: #EAB308;
+}
+.hometext > h1{
+    color: aliceblue;
+}
+.hometext > p{
+    color: #6B7280;
+}
+.hometext > a > button{
+    background: #EAB308;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5%;
+}
+.homeimg > img{
+width: 400px;
+/* height: 500px; */
+border-radius: 10%;
+}
+.about{
+    width: 100%;
+    background: #020617;
+    height: 100vh;
+}
+.aboutcontent{
+    display: flex;
+gap: 100px;  
+justify-content: center;
+align-items: center;  
+}
+.aaimg > img{
+    width: 300px;
+    margin-top: 4rem;
+    padding: 10px 10px;
+    background: #EAB308;
+    border-radius: 10%;
+}
+.atext{
+    color: aliceblue;
+    margin-top: 150px;
+}
+.atext > h1{
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.atext > p{
+    color: #6B7280;
+    margin-top: 1.5rem;
+    font-family: serif;
+}
+.atext > a > button{
+     background: #EAB308;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10%;
+}
+.contactpage{
+    background: #020617;
+    width: 100%;
+    height: 100vh;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+}
+.nav >  nav > h1{
+    color: aliceblue;
+}
+.cp{
+    display: flex;
+    justify-content: center;
+    color: #6B7280;
+    margin-top: 2rem;
+    font-family: sans-serif;
+}
+.contacttext{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.ctext{
+    margin-top: 50px;
+}
+.ctext > p{
+color: #EAB308;
+}
+.ctext > p > a{
+    text-decoration: none;
+    color: #6B7280;
+}
+.cform{
+    margin-top: 35px;
+}
+.cform >  form > input{
+    background-color:rgba(255, 255, 255, 0.1) ;
+width: 100%;
+padding: 10px;
+border: none;
+border-radius: 6px;
+color: #fff;
+font-size: 1rem;
+outline: none;
+}
+.cform >  form > .input{
+    background-color:rgba(255, 255, 255, 0.1) ;
+width: 100%;
+padding: 25px;
+border: none;
+border-radius: 6px;
+color: #fff;
+font-size: 1rem;
+outline: none;
+}
+.cform >  form > button{
+    background-color:#EAB308 ;
+padding: 15px;
+border: none;
+border-radius: 6px;
+color: #fff;
+font-size: 1rem;
+outline: none;
+}
+.services{
+    background: #111827;
+    height: 100vh;
+}
+.scontent{
+    display: flex;
+    /* justify-content: center; */
+}
+.stext{
+    margin-top: 2rem;
+    margin-left: 3rem;
+    
+}
+.scontent > .stext > h1{
+    color: #fff;
+    font-family: sans-serif;
+}
+.scontent > .stext > p{
+    margin-top: 1rem;
+    color: #6B7280;
+    font-family: serif;
+}
+.scontent > .stext > .sicons{
+    display: flex;
+    gap: 100px;
+    margin-top: 60px;
+}
+.scontent > .stext > .sicons > .sicons1{
+    border-radius: 5%;
+    background-color: #020617;
+    color: #6B7280;
+    padding: 10px;
+    font-family: sans-serif;
+}
+.scontent > .stext > .sicons > .sicons2{
+    border-radius: 5%;
+    background-color: #020617;
+    color: #6B7280;
+    font-family: sans-serif;
+padding: 5px;
+}
+@media ( max-width: 1024px) {
+   .home{
+    gap: 40px;
+    flex-direction: column-reverse;
+    text-align: center;
+    height: 100vh;
+   }
+   .hometext{
+    margin-top: 1rem;
+   }
+   .hometext > h4{
+    font-size: 1.2rem;
+   }
+   .homeimg  img{
+    width: 200px;
+    margin-bottom: 20px;
+   }
+   .about{
+    height: auto;
+    padding: 40px 15px;
+    width: 100%;
+   }
+   .aboutcontent{
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+   }
+   .aaimg img{
+    width: 200px;
+    margin-top: 2rem;
+   }
+   .atext{
+    color: aliceblue;
+    margin-top: 50px;
+}
+   .services{
+    background: #111827;
+    /* width: 100%; */
+    height: auto;
+}
+.scontent{
+    flex-direction: column;
+    height: auto;
+    
+}
+.scontent > .stext > .sicons{
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+
+}
+.scontent > .stext > .sicons > .sicons2{
+padding: 20px;
+margin: 25px;
+}
+.stext{
+    margin-top: 0;
+    margin: 15px;
+}
+.scontent > .stext > .sicons > .sicons1{
+    border-radius: 5%;
+    background-color: #020617;
+    color: #6B7280;
+    padding: 10px;
+    font-family: sans-serif;
+    margin: 25px;
+}
+.stext{
+    margin-top: 2rem;
+    margin-left: 0;
+    
+}
+.stext h1{
+    text-align: center;
+}
+.scontent > .stext > p{
+    margin-top: 1rem;
+    text-align: center;
+    color: #6B7280;
+    font-family: serif;
+}
+.scontent > .stext > .sicons > .sicons1 h1{
+    font-size: 200;
+    text-align: center;
+    width: 10px;
+    font-weight: 100;
+}
+.scontent > .stext > .sicons > .sicons2 h1{
+    font-size: 200;
+    text-align: center;
+    width: 10px;
+    font-weight: 100;
+}
+.nav >  nav > h1{
+    color: aliceblue;
+    align-items: center;
+    margin: 10px;
+}
+.contacttext{
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+}
