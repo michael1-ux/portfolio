@@ -39,7 +39,7 @@ border-radius: 10%;
 }
 .about{
     width: 100%;
-    background: #020617;
+    /* background: #020617; */
     height: 100vh;
 }
 .aboutcontent{
@@ -181,6 +181,62 @@ outline: none;
     font-family: sans-serif;
 padding: 5px;
 }
+.snavbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #111;
+  color: #fff;
+  padding: 15px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.slogo {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.snav-links {
+  display: flex;
+  list-style: none;
+}
+
+.snav-links li {
+  margin: 0 20px;
+}
+
+.snav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.snav-links a:hover {
+  color: #00bcd4;
+}
+
+/* Hamburger menu */
+.shamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  width: 25px;
+  height: 20px;
+  justify-content: space-between;
+}
+
+.sbar {
+  height: 3px;
+  width: 25px;
+  background-color: white;
+  margin: 4px 0;
+  transition: 0.3s;
+}
+
+
 @media ( max-width: 1024px) {
    .home{
     gap: 40px;
